@@ -17,7 +17,7 @@ const Header = () => (
 
       <ul>
         <li><Link to="/about">About</Link></li>
-        <li>Posts</li>
+        <li><Link to="/posts">Posts</Link></li>
         <li><Link to="/contact">Contact</Link></li>
       </ul>
     </div>
@@ -35,7 +35,7 @@ const Footer = () => (
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="Home Page"
       meta={[
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
